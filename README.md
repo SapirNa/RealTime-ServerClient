@@ -4,26 +4,26 @@
 this is demo of smart-home system base on server-clinet.
 
 main_server : 
-  is the server that get all to messages from clients and do all the work.
+is the server that get all to messages from clients and do all the work.
 
 client_light :
-  r un on backgrond, when get message from main_server he can do:
-    1. send light-on
-    2. send light-off
+run on backgrond, when get message from main_server he can do:
+  1. send light-on
+  2. send light-off
 
 client_move :
-    send to the main_server that there is a person move in the house.
+send to the main_server that there is a person move in the house.
 
 client_log :
-    send to the main_server the log file that he save
+send to the main_server the log file that he save
 
 client_write :
-    free text from the user to the main_server.
-    1. the user can write free text and the main_server return the same message
-    2. the user can write "light-on"/"light-off" and the main_server will call the client_light
+free text from the user to the main_server.
+  1. the user can write free text and the main_server return the same message
+  2. the user can write "light-on"/"light-off" and the main_server will call the client_light
 
 client_shutdown :
-    send to the main_server to kill all the client and himself
+send to the main_server to kill all the client and himself
 
 
 to run this code:
