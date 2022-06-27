@@ -27,7 +27,7 @@ send to the main_server to kill all the client and himself
 
 
 to run this code:
-    * compile each file individually
-    * run the main_server - it will not stop until you press CTRL+C
-    * run the client_light - it will not stop until you press CTRL+C
-    * run ervery client you wants 
+  * compile each file individually
+  * run the main_server - it will not stop until you press CTRL+C
+  * run the client_light - it will not stop until you press CTRL+C
+  * run ervery client you wants 
