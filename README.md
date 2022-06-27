@@ -1,6 +1,5 @@
 # RealTime-ServerClient
-
-by - Sapir Naugauker
+# by - Sapir Naugauker
 
 this is demo of smart-home system base on server-clinet.
 
